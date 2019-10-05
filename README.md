@@ -224,6 +224,8 @@ end
 
 # Wheat, sure!
 make_sandwich("Creamy peanut butter", "glittering sense of accomplishment") { |b| "#{b} on wheat" }
+"A Creamy peanut butter and glittering sense of accomplishment sandwich on wheat"
+map([1, 2, 3, -9]){|n| n * 2}
 
 # Bueno!
 make_sandwich("Creamy peanut butter", "glittering sense of accomplishment") { |b| "#{b} on tortilla" }
